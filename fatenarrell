@@ -1,7 +1,7 @@
 <!DOCTYPE index.html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <link href="styles/style.css" rel="stylesheet" />
         <title>Project: Travel webpage</title>
     <style>
         body {
