@@ -3,41 +3,12 @@
     <head>
         <link href="styles/style.css" rel="stylesheet" />
         <title>Project: Travel webpage</title>
-    <style>
-        body {
-            background-color: rgb(255, 206, 127);
-        }
-        
-        h1 {
-            color: rgb(0, 255, 208);
-
-        }
-        .titl {
-            background-color: rgb(255, 54, 54);
-        }
-        
-    </style>
     </head>
     <body>
     
         <h1 class="titl">Travel To Canberra</h1>
         
         <p> Canberra is the capital city of Australia. Founded following the federation of the colonies of Australia as the seat of government for the new nation, it is Australia's largest inland city and the eighth-largest Australian city overall. </p>
-        
-    <p> Canberra is my home, let me show you around! </p>
-    
-    <h2>Things To See:</h2>
-    
-    <p><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/1.png" width="15" height="15"><em><strong> Questacon - </strong></em> The National Science and Technology Centre is an interactive science communication facility in Canberra, Australia. It is a museum with more than 200 interactive exhibits related to science and technology.</p>
-    
-    <p><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/2.png" width="15" height="15"><em><strong> The Arboretum - </strong></em> The National Science and Technology Centre is an interactive science communication facility in Canberra, Australia. It is a museum with more than 200 interactive exhibits related to science and technology. Fun Fact; I was one of the first kids to be allowed to play in the famous Arboretum playground!</p>
-    
-    <p><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/3.png" width="15" height="15"><em><strong> National War Memorial - </strong></em> The Australian War Memorial is Australia's national memorial to the members of its armed forces and supporting organisations who have died or participated in wars involving the Commonwealth of Australia and some conflicts involving personnel from the Australian colonies prior to Federation.</p>
-    
-    <h3>Locations in Australia</h3>
-    <p>  <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/sand-dunes.png" width="250"> </p>
-     <p>  <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountains-and-lake.png" width="250"> </p>
-    
         
     </body>
 </html>
