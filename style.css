@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The LOST Experience</title>
+    <style>
 
+.header {
+  background-color: rgb(217,217,217);
+  text-align: center;
+  padding: 30px;
+  font-family: Verdana, sans-serif;
+}
+      .dropbtn {
+        background-color: rgb(217,217,217);
+        color: black;
+        padding: 10px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+</head>
+</html>
