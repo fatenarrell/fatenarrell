@@ -1,8 +1,9 @@
 .cookies-eu-banner {
           background: #444;
           color: #fff;
-          padding: 6px;
-          font-size: 13px;
+          padding: 10px;
+          font-size: 20px;
+          font-family: Verdana, sans-serif;
           text-align: center;
           position: fixed;
           bottom: 0;
