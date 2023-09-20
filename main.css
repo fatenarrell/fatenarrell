@@ -35,11 +35,9 @@
 
 
 .tlelogoun {
-          display: flex;
-          justify-content: center;
-          align-items: center
-          height: 800px;
-          z-index: 15;
+          display: block;
+          margin: 0 auto;
+          width: 40%
      }
           
 }
