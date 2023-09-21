@@ -38,13 +38,5 @@
           display: flex;
           justify-content: center;
      }
-
-.image {
-      background-image: url(https://drive.google.com/file/d/1xeXNxEHSZ43jIC4hXf2H_4YlK1QKDb5f/view?usp=drive_link);
-          filter: blur(6px);
- background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
           
 }
