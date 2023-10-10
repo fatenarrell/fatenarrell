@@ -27,18 +27,15 @@ body, html {
 
 .image {
   background-image: url("https://lh3.googleusercontent.com/drive-viewer/AITFw-wwZ30uOY5Wtxqt3uYw5UIvgndKJgPPK4PnHmtDJfayughWFU6EVhTrxoKmzCL36defYtbmhZQS98HrPS36XiMkDDyt8Q=s2560");
-
   filter: blur(6px);
-  
   height: 100%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .text {
-  background-color: rgba(0, 0, 0, 0.4); /* Black partially transparent background */
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #ffffff;
