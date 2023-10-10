@@ -48,3 +48,8 @@ body, html {
   text-align: center;
           font-style: Bradley Hand, cursive;
 }
+
+.button {
+          z-index: 1;
+          align: center;
+}
