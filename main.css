@@ -31,6 +31,7 @@ body, html {
           border: 2px solid #FFF;
           z-index: 1;
           align-items: center;
+  float: center;
 }
 
 .button:hover {
