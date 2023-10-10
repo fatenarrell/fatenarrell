@@ -1,26 +1,3 @@
-.cookies-eu-banner button {
-          text-decoration: none;
-          background: #222;
-          color: #fff;
-          border: 1px solid #000;
-          cursor: pointer;
-          padding: 4px 7px;
-          margin: 2px 0;
-          font-size: 13px;
-          font-weight: 700;
-          transition: background 0.07s, color 0.07s, border-color 0.07s;
-        }
-
-        .cookies-eu-banner button:hover {
-          background: #fff;
-          color: rgb(231, 254, 255);
-        }
-
-.hidden {
-  display: none;
-}
-
-
 body, html {
   height: 100%;
 }
@@ -46,7 +23,6 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
-          font-style: Bradley Hand, cursive;
 }
 
 .button {
@@ -54,6 +30,7 @@ body, html {
           padding: 5px 10px;
           border: 2px solid #FFF;
           z-index: 1;
+          align-items: center;
 }
 
 .button:hover {
