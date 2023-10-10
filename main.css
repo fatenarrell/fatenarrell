@@ -27,7 +27,7 @@ body, html {
 
 .image {
   background-image: url("https://lh3.googleusercontent.com/drive-viewer/AITFw-wwZ30uOY5Wtxqt3uYw5UIvgndKJgPPK4PnHmtDJfayughWFU6EVhTrxoKmzCL36defYtbmhZQS98HrPS36XiMkDDyt8Q=s2560");
-  filter: blur(6px);
+  filter: blur(10px);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
