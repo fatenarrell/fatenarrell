@@ -24,3 +24,8 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+
+a:link {
+  color: light blue;
+  background-color: transparent;
+  text-decoration: none;
