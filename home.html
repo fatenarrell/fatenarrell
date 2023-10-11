@@ -47,42 +47,69 @@ body {
        x-index: 5;
      }
 
-    .dropbtn {
-  background-color: #04AA6D;
+ 
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 10px 15px;
   border: none;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.openbtn:hover {
+  background-color: #444;
 }
 
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
 }
 
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
       
     </style>
 
@@ -94,20 +121,38 @@ body {
 
    <img class="tlelogo" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wwZ30uOY5Wtxqt3uYw5UIvgndKJgPPK4PnHmtDJfayughWFU6EVhTrxoKmzCL36defYtbmhZQS98HrPS36XiMkDDyt8Q=s2560">
 
-  <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="home.html">Home</a>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="home.html">Home</a>
     <a href="recap.html">Recap</a>
     <a href="misund.html">Why LOST Is Misunderstood</a>
     <a href="index.html">Cookie Policy</a>
-  </div>
 </div>
 
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <h2>Collapsed Sidebar</h2>
+  <p>Content...</p>
+</div>
+  
 </div>
 
   <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyS50y5Fz5jbOCZ_AVA5NqNIn2r_RdtdXOFDAwtiuwiH2rdrzC9vKUfVLi-snN7-oXU3M:https://static.wikia.nocookie.net/lostpedia/images/8/87/The_Island_-_A_Tale_of_Two_Cities.jpg/revision/latest/scale-to-width-down/300%3Fcb%3D20100314065240&usqp=CAU');">
 
-  
+  <script>
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+    
+  </script>
+    
 </body>
 </html>
