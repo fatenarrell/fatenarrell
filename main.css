@@ -30,8 +30,8 @@ body, html {
           padding: 5px 10px;
           border: 2px solid #FFF;
           z-index: 1;
-          align-items: center;
-  float: center;
+          position: fixed;
+  align-items: center;
 }
 
 .button:hover {
