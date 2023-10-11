@@ -10,23 +10,9 @@
         z-index: 2;
       }
       
-      .header {
-  box-sizing: border-box;
-  background-color: rgb(217,217,217);
-  text-align: center;
-  padding:28px;
-  font-family: arial black, sans-serif;
-  font-size: 78px;
-  position: fixed;
-  width: 100%;
-  margin-top: 0px;
-  margin-left: auto;
-        margin-right: auto;
-}
 
 body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyS50y5Fz5jbOCZ_AVA5NqNIn2r_RdtdXOFDAwtiuwiH2rdrzC9vKUfVLi-snN7-oXU3M:https://static.wikia.nocookie.net/lostpedia/images/8/87/The_Island_-_A_Tale_of_Two_Cities.jpg/revision/latest/scale-to-width-down/300%3Fcb%3D20100314065240&usqp=CAU');
-  backdrop-filter: blur(7px);
+  background-image: url('https://drive.google.com/uc?export=view&id=1AKFMDISDRbb9aDpv7mPP12g9QAo10t0z');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,43 +20,59 @@ body {
   background-attachment: fixed;
       }
      
-     .twistr {
-       font-size: 45px;
-       font-family: gill sans, sans-serif;
-     } 
 
      .tlelogo {
-       width: 100px;
-       position: absolute;
-       left: 30px;
-       top: 10px;
-       x-index: 5;
+      display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 96px;
      }
      
-     .topnav {
-       box-sizing: border-box;
-       overflow: hidden;
-       background-color: rgb(110,110,110);
-       position: fixed;
-       margin-top: 120px;
-       width: 100%;
-       padding: 10px;
-       margin-left: 0px;
-       font-family: Verdana, sans-serif;
-     }
+.dropbtn {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: RGB(253,253,253);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  border: none;
+  border-radius: 32px;
+}
 
-     .topnav a {
-       float: left
-       display: block;
-       color: rgb(242,242,242);
-       text-align: center;
-       text-decoration: none;
-       padding: 14px 16px;
-     }
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  top: 15px;
+  left: 20px;
+}
 
-     .topnav a:hover {
-       background-color: rgb(217,217,217)
-     }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: none;
+  border-radius: 32px;
+}
+
+.dropdown-content a {
+  color: rgb(253,253,253);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.3);}
+
+      .dropdown:hover .dropdown-content {
+  display: block;
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0, 0, 0, 0.3);
+}
       
     </style>
 
@@ -78,19 +80,23 @@ body {
 <body>
   
 <div class="everything">
-  <h1 class="header"><em class="twistr">The</em>  LOST  <em class="twistr">Experience</em></h1>
 
    <img class="tlelogo" src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wwZ30uOY5Wtxqt3uYw5UIvgndKJgPPK4PnHmtDJfayughWFU6EVhTrxoKmzCL36defYtbmhZQS98HrPS36XiMkDDyt8Q=s2560">
 
-<div class="topnav">
-  <a href="home.html">Home </a>
-  <a href="recap.html">LOST Recap </a>
-  <a href="misund.html">Why LOST is Misunderstood </a>
-  <a href="index.html">Cookie Policy</a>
+
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+ <a href="home.html">Home</a>
+  <a href="recap.html">Recap</a>
+  <a href="misund.html">Misinterpreting LOST</a>
+    <a href="index.html">Cookie Policy</a>
+  </div>
 </div>
+  
 </div>
 
-  <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyS50y5Fz5jbOCZ_AVA5NqNIn2r_RdtdXOFDAwtiuwiH2rdrzC9vKUfVLi-snN7-oXU3M:https://static.wikia.nocookie.net/lostpedia/images/8/87/The_Island_-_A_Tale_of_Two_Cities.jpg/revision/latest/scale-to-width-down/300%3Fcb%3D20100314065240&usqp=CAU');">
+  <div style="background-image: url('https://drive.google.com/uc?export=view&id=1AKFMDISDRbb9aDpv7mPP12g9QAo10t0z');">
 
   
 </body>
