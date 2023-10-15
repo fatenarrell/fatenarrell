@@ -37,3 +37,11 @@ a:link {
   color: light blue;
   background-color: transparent;
   text-decoration: none;
+
+.tlelogo {
+      display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 108px;
+       filter: invert(1);
+     }
