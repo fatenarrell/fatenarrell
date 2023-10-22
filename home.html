@@ -1,179 +1,239 @@
 <!DOCTYPE html>
-<html>
-  <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The LOST Experience</title>
-
-    <style>
-
-     
-      
-      div.scroll-container {
-  background-color: rgba(0,0,0,0.6);
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-  position: absolute;
-  bottom: -350px;
-  left: 0;
-  right: 0;
-  z-index: 7;
-  width: 100%;
-}
-
-div.scroll-container img {
-  padding: 10px;
-  margin:0 auto
-  border: 2px solid #ffffff;
-}
-
-      .dropbtn {
-    background: none;
-  font-size: 50px;
-  cursor: pointer;
-  border: none;
-  position: absolute;
-  top: 70px;
-  left: 20px;
-  margin: 0;
-  padding: 0;
-  font-color: white;
-  z-index: 9
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  font-family: gill sans, sans-serif;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 90px;
-  background-color: rgba(0, 0, 0, 0.5);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border: none;
-  border-radius: 16px;
-  padding: 5px 5px;
-  z-index: 6;
-}
-
-.dropdown-content a {
-  color: rgb(253,253,253);
-  padding: 18px 22px;
-  text-decoration: none;
-  display: block;
- 
-}
-
-.dropdown-content a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  border: none;
-  border-radius: 16px;
-}
-
-      .dropdown:hover .dropdown-content {
-  display: block;
-          border: none;
-  border-radius: 16px;
-      }
-
-.dropdown:hover .dropbtn {
-  background-color: rgba(0, 0, 0, 0.3);
-  border: none;
-  border-radius: 16px;
-}
-
-      
-      .rel {
-  position: relative;
-  top: -100px;
-  width: 10px;
-  left: 30px;
-}
-
-      .intro {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid #ffffff;
-  padding: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 93%;
-  text-align: center;
-  color: white;
-  font-family: arial, sans-serif;
-  line-height: 2em;
-  z-index: 1;
-  overflow: scroll;
-}
-
-      .dalogo {
-      position: fixed;
-        top: 29px;
-        right: 15px;
-       width: 175px;
-      filter: invert(1);
-         z-index: 8;
-     }
-    
-
-body {
-  background-image: url('https://drive.google.com/uc?export=view&id=1AKFMDISDRbb9aDpv7mPP12g9QAo10t0z');
-  height: 1100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-      }
-     
-
-     
-
-        
-    
-    </style>
-
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 </head>
 <body>
-  
 
-  <img class="dalogo" src="https://drive.google.com/uc?export=view&id=1BBkQRe7HnY1ITA5aC4O7h4U22jsfmLko">
-
-<div class="scroll-container">
-  <img src="https://i.pinimg.com/564x/c6/f7/fc/c6f7fcbacb9d4f94484f1de468db1638.jpg" alt="Walt (Malcolm David Kelly) playing with Sawyer (Josh Holloway) - Behind the Scene" width="600" height="400">
-  <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/07/Feature-Image-Lost.jpg" alt="OG Cast Posing Infront Of Oceanic Wreck - Behind The Scenes" width="600" height="400">
-  <img src="https://i.pinimg.com/originals/ee/e0/3f/eee03fe91cddcf18a8a2eeb69bd74799.jpg" alt="OG Cast Watching 'Lost' On TV - Behind The Scenes" width="600" height="400">
-  <img src="https://i.pinimg.com/736x/a3/0c/77/a30c77643885fcd5c294c178af93b785.jpg" alt="Dock Scene - Behind The Scenes" width="600" height="400">
-  <img src="https://i.pinimg.com/236x/d4/91/07/d49107fc57f997482d4181266ac54063.jpg" alt="Jack (Matthew Fox), Kate (Evangeline Lilly) and Toddler Aaron (William Blanchette) - Behind The Scenes" width="600" height="400">
-  <img src="https://pixplus.files.wordpress.com/2012/07/88322179_c996c9019f_z.jpg" alt="Polar Bear Death Scene - Behind The Scenes" width="600" height="400">
-</div>
-  
-   <div class="rel">
-  <div class="dropdown">
-  <button class="dropbtn" style="color:white;">☰</button>
-  <div class="dropdown-content">
- <a href="home.html">Home</a>
-  <a href="recap.html">Recap</a>
-  <a href="misund.html">LOST: Misunderstood</a>
-    <a href="index.html">Cookie Policy</a>
-    <a href=https://shopabctv.com/collections/lost?page=1>Official Shop</a>
-    <a href="https://instagram.com/fatenarrell?igshid=OGQ5ZDc2ODk2ZA%3D%3d&Utm_source=qr">Instagram</a>
-    <a href="mailto: 8038705@schoolsnet.act.edu.au">Send Email</a>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
-   </div>
 
-<div class="intro">
-  <p>Lost is a serial television series that predominantly follows the lives of the survivors of the crash of Oceanic 815 on a mysterious tropical island, following themes of drama and mystery but most importantly redemption and will. There, the survivors have to negotiate with an unknown force, a savage group of natives, polar bears, and each other as they try to survive and seek rescue; for if they cannot live together, they will die alone. Lost's success comes primarily from its multinational ensemble cast, the plotline of mysteries, flashbacks, flash-forwards and flash-sideways and the "mystery box" formula. Damon Lindelof and Carlton Cuse worked as the showrunners and are executive producers along with JJ Abrams and Bryan Burk. Inspired by the 2000 film Cast Away, the show is told in a heavily serialized form Due to its large ensemble cast and the cost of filming primarily on location in Oahu, Hawaii, the series was one of the most expensive on television at that time, with the pilot alone costing over $13 million (resulting in the firing of the ABC Executive who green-lit it). The universe and mythology of Lost were expanded upon by several related media - most importantly a series of mini-episodes called Missing Pieces, an ARG Video Game; and a 12-minute epilogue, "The New Man in Charge". Lost has continuously been ranked by critics as one of the greatest television series of all time due to its influence on media for decades to come. The first season had an average of 16 million viewers per episode on ABC. Despite averaging around 11 million viewers per episode in the sixth season, the series finale ("The End") saw 13.5 million people tune in. Despite its successes, Lost is one of the most misunderstood pieces of media to ever exist, as we will explore together.</p></div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
 
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/la.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/ny.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">THE BAND</h2>
+    <p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
   
+<!-- End Page Content -->
+</div>
 
-  <div style="background-image: url('https://drive.google.com/uc?export=view&id=1AKFMDISDRbb9aDpv7mPP12g9QAo10t0z');">
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
-  
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>
