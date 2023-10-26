@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>The Lost Experience</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,10 +9,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
 </style>
 </head>
+<body>
 
-  <body>
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -37,23 +38,52 @@ body {font-family: "Lato", sans-serif}
   <a href="misund.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOST: MISUNDERSTOOD</a>
   <a href="https://shopabctv.com/collections/lost" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">STORE</a>
 </div>
-
+  
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="TLE LOGO.png" style="width:100%">
+    <img src="/w3images/la.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Los Angeles</h3>
       <p><b>We had the best time playing at Venice Beach!</b></p>   
     </div>
- 
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/ny.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">THE LOST EXPERIENCE</h2>
     <p class="w3-opacity"><i>By Nate F</i></p>
     <p class="w3-justify">Lost is a serial television series that predominantly follows the lives of the survivors of the crash of Oceanic 815 on a mysterious tropical island, following themes of drama and mystery but most importantly redemption and will. There, the survivors have to negotiate with an unknown force, a savage group of natives, polar bears, and each other as they try to survive and seek rescue; for if they cannot live together, they will die alone. Lost's success comes primarily from its multinational ensemble cast, the plotline of mysteries, flashbacks, flash-forwards and flash-sideways and the "mystery box" formula. Damon Lindelof and Carlton Cuse worked as the showrunners and are executive producers along with JJ Abrams and Bryan Burk. Inspired by the 2000 film Cast Away, the show is told in a heavily serialized form. Due to the large cast and the cost of filming primarily on location in Oahu, Hawaii, the series was one of the most expensive on television at that time, with the pilot alone costing over $13 million (resulting in the firing of the ABC Executive who green-lit it). The universe and mythology of Lost were expanded upon by several related media - most importantly a series of mini-episodes called Missing Pieces, an ARG Video Game; and a 12-minute epilogue, "The New Man in Charge". Lost has continuously been ranked by critics as one of the greatest television series of all time due to its influence on media for decades to come. The first season had an average of 16 million viewers per episode on ABC. Despite averaging around 11 million viewers per episode in the sixth season, the series finale ("The End") saw 13.5 million people tune in. Despite its successes, Lost is one of the most misunderstood pieces of media to ever exist, as we will explore together.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
   </div>
 
   <!-- The Tour Section -->
@@ -150,18 +180,12 @@ body {font-family: "Lato", sans-serif}
 <!-- End Page Content -->
 </div>
 
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <br>
+  <p class="w3-medium">Created by Nate F, @fatenarrell on Instagram</p>
 </footer>
 
 <script>
