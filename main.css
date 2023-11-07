@@ -3,7 +3,7 @@ body, html {
 }
 
 .image {
-  background-image: img/lost banner.png;
+  background-image: url('img/lost banner.png');
   filter: blur(10px);
   height: 100%;
   background-position: center;
