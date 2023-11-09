@@ -1,1 +1,5 @@
-
+.w3-tooltip{position:relative}
+.nate-display-container {
+  position: relative;
+  width: 100px;
+}
