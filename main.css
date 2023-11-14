@@ -3,7 +3,7 @@ body, html {
 }
 
 .image {
-  background-image: url('img/lost banner.png');
+  background-image: url('img/lostiesillustration.jpg');
   filter: blur(10px);
   height: 100%;
   background-position: center;
@@ -37,11 +37,3 @@ a:link {
   color: light blue;
   background-color: transparent;
   text-decoration: none;
-
-.tlelogo {
-      display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width: 108px;
-       filter: invert(1);
-     }
