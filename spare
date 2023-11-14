@@ -1,4 +1,11 @@
-    body {
+To Do List:
+- Small navbar not working on all pages
+
+
+
+
+
+body {
   background-image: url('https://drive.google.com/uc?export=view&id=1AKFMDISDRbb9aDpv7mPP12g9QAo10t0z');
   height: 2650px;
   background-position: center;
