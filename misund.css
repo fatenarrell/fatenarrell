@@ -32,15 +32,6 @@
      }
     
 
-
-    .lostiesillustration {
-       position: absolute;
-       left: 50%;
-       transform: translateX(-50%);
-       top: 1061px;
-       width: 700px;
-       border: 1px solid black;
-     }
       
       
     .relative {
