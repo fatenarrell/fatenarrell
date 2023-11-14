@@ -3,7 +3,7 @@ body, html {
 }
 
 .image {
-  background-image: url('img/lostiesillustration.jpg');
+  background-image: url('img/image2.jpeg');
   filter: blur(10px);
   height: 100%;
   background-position: center;
